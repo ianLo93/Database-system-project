@@ -18,7 +18,7 @@ We designed an interface of our web application with a navigation bar on the top
 
 We use Java and JSP to build the web application, we first created three table schemas in Postgres database to store the college data, then we use a java program to clean data and insert them into the tables. The program works pretty well, we got a good result of three tables. The ER diagram is provided as the figure below.
 
-Run PostgresDB.java to import college
+Run 'PostgresDB.java' to import college
  
 MongoDB is in BSON format, it needs a schema as the key and a value as the value. We import our schemas into the database first, then use a command provided by MongoDB to import all the values. The command line is as follows.
 
