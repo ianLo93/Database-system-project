@@ -2,7 +2,7 @@
 JIANHUI LU, WEIRAN YUAN
 RIN: 661752675, 661677444
 
-## APP UI
+## APP User Interface
 
 ![HOME](https://image.ibb.co/eNZgH6/homepage.png)
 ![Search](https://image.ibb.co/btcOVR/searchui.png)
