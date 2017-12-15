@@ -12,8 +12,7 @@ Source of colleges data: https://catalog.data.gov/dataset/college-scorecard
 
 Githud repository: https://github.com/ianLo93/Database-system-project
 
-Google drive (Store terrorism data): 
-https://drive.google.com/uc?id=1QpVNxwgVBsfWxXk85EO2lw1HRghi4oMl&export=download
+Google drive (Store terrorism data): https://drive.google.com/file/d/1QpVNxwgVBsfWxXk85EO2lw1HRghi4oMl/view?ts=5a3334c4
 
 ## Application
 Our group chose to make a web application using JSP and use PostgreSQL and MongoDB as the database of the three tiers application. We store terrorism data in the MongoDB since most of the schemas do not really have functional dependencies with each other, we can split them into several tables but these tables don’t make sense as relational models, like even if we specified an attack type, we still can’t sure what kind of weapons the terrorists used. Hence, using a non-relational model should be more appropriate for the dataset. We split the college dataset into three tables, respectively college overall information, geographical information and the accredition institutes table. 
