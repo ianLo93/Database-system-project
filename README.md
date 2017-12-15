@@ -5,9 +5,13 @@ RIN: 661752675, 661677444
 ## Used Datasets
 
 The two datasets we use are terrorist attacks data and college information data as we demonstrated in the memo. There are 135 schemas in the terrorist attacks data, which includes incident information, incident location, attack information, weapon information, target/victim information, perpetrator information and consequences. We narrow down the scope of the dataset from global to US domestic since our application do not use any of the other data and the US terrorism data is large enough. The college data comes from a score rating system. It includes most of the colleges in US includes those not verified by the accrediting institutions. There are 27 schemas in the colleges datasets including college overall information, location information and the accrediting agencies information. We provided source for the two datasets and the Githud repository and google drive link where we preserve these datasets.
+
 Source of terrorism data: http://www.start.umd.edu/gtd/
+
 Source of colleges data: https://catalog.data.gov/dataset/college-scorecard
+
 Githud repository: https://github.com/ianLo93/Database-system-project
+
 Google drive (Store terrorism data): 
 https://drive.google.com/file/d/1wrnUHXjN03bgyvg7ryUBq87EWL9W2tHl/view?ts=5a314bfb
 
