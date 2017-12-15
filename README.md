@@ -4,7 +4,7 @@ RIN: 661752675, 661677444
 
 ## APP UI
 
-![alt](https://db.tt/0W3m2OX1sn)
+![HOME](https://image.ibb.co/eNZgH6/homepage.png)
 
 ## Used Datasets
 
