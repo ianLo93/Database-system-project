@@ -5,6 +5,8 @@ RIN: 661752675, 661677444
 ## APP UI
 
 ![HOME](https://image.ibb.co/eNZgH6/homepage.png)
+![Search](https://image.ibb.co/btcOVR/searchui.png)
+![Detail](https://image.ibb.co/nw82Pm/Information.png)
 
 ## Used Datasets
 
