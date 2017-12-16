@@ -27,11 +27,13 @@ Our group chose to make a web application using JSP and use PostgreSQL and Mongo
 We designed an interface of our web application with a navigation bar on the top and some contact and relevant information at the bottom. Two class of buttons on the homepage, one is to search for the information of the schools, it asks user to provide some basic information such as school name, city and zip code, it will provide an overall information to the users to have a basic understanding of the school, we will also provide historical terrorists attack information in that area, if the city the school placed have ever experienced some attacks, our app will provide that information and the detail is accessible if the user click the link. The other button is for users who wants to explore more about terrorist attacks in United States, it also needs users to provide some information so that queries can start to work on the database and several results will come out. 
 
 ### Data import
-We use Java and JSP to build the web application, we first created three table schemas in Postgres database to store the college data, then we use a java program to clean data and insert them into the tables. The program works pretty well, we got a good result of three tables. The ER diagram is provided as the figure below.
+We use Java and JSP to build the web application, we first created three table schemas in Postgres database to store the college data, then we use a java program to clean data and insert them into the tables. The program works pretty well, we got a good result of three tables. The ER diagram is provided in the githud file.
 
-Run 'PostgresDB.java' to import college
+Run 'PostgresDB.java' to import college data. 
+
+Make sure that "CollegeData2.1.csv" is in the same directory as in Eclipse workspace. Actually we have included our data file in the source code zip file.
  
-MongoDB is in BSON format, it needs a schema as the key and a value as the value. We import our schemas into the database first, then use a command provided by MongoDB to import all the values. The command line is as follows.
+MongoDB is in BSON format, it needs a schema as the key and a value as the value. We directly import our datafile into the database named "databaseproject" in mongoDB using the following command line. Before that, you should have been set up a database called "databaseproject" and make sure that tha USTerrorismData.csv is in the same file as in the directory that can call "mongo" command in your computer.
 
 mongoimport -d databaseproject -c terrorism --type csv --file USTerrorismData.csv --headerline
 
