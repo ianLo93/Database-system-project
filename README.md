@@ -7,7 +7,7 @@ RIN: 661752675, 661677444
 
 ![HOME](https://image.ibb.co/eNZgH6/homepage.png)
 ![Search](https://image.ibb.co/btcOVR/searchui.png)
-![Detail](https://image.ibb.co/nw82Pm/Information.png)
+![Detail](https://image.ibb.co/nNqJX6/We_Chat_Image_20171216042938.png)
 
 ## Used Datasets
 
@@ -43,3 +43,6 @@ After we connect the Postgres database and MongoDB (Use 'ConnectMongodb.java' an
 The application is run on a virtual server called 'Tomcat' which the users need to install. We make our program on Eclipse. You need to installed a java jar ‘postgresql-42.1.4.jar’ under the ‘WEB-INF/lib’ to have connection with the Postgres database, and you also need mongodb-driver-36.0.jar and mongodb-java-driver-36.0.jar to connect with the mongoDB database. Two classes need to implement to get the connection to these database, one is ‘ConnectMongodb.java’ and the other is ‘ConnectPostgres.java’, we have included them in our zip file. When all these things are ready, you can right click ‘Homepage.jsp’ under WebContent folder in Eclipse IDE and Run As -> Run on Server or just go to http://localhost:8080/DBprojectCode/Homepage.jsp (If you can't open, try the newest code on Github) you can get access to our web application. 
 
 Have fun!
+
+## Other interfaces
+![terrorism](https://image.ibb.co/b0HFC6/explore_Terro.png)
