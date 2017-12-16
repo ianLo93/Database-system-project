@@ -7,6 +7,9 @@ RIN: 661752675, 661677444
 
 ![HOME](https://image.ibb.co/eNZgH6/homepage.png)
 ![Search](https://image.ibb.co/btcOVR/searchui.png)
+
+The college data detail will search the terrorism data in mongodb database, it will show the events in that state+city.
+
 ![Detail](https://image.ibb.co/n3hxc6/schooldetail.png)
 
 ## Used Datasets
