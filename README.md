@@ -7,7 +7,7 @@ RIN: 661752675, 661677444
 
 ![HOME](https://image.ibb.co/eNZgH6/homepage.png)
 ![Search](https://image.ibb.co/btcOVR/searchui.png)
-![Detail](https://image.ibb.co/nNqJX6/We_Chat_Image_20171216042938.png)
+![Detail](https://image.ibb.co/n3hxc6/schooldetail.png)
 
 ## Used Datasets
 
