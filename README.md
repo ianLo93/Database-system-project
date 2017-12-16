@@ -33,7 +33,7 @@ Run 'PostgresDB.java' to import college
  
 MongoDB is in BSON format, it needs a schema as the key and a value as the value. We import our schemas into the database first, then use a command provided by MongoDB to import all the values. The command line is as follows.
 
-mongoimport -d databasename -c collectionname --type csv --file filename.csv –headerline
+mongoimport -d databaseproject -c terrorism --type csv --file USTerrorismData.csv --headerline
 
 ### Environment Setup
 Now we have all the data in the database, we can implement some java code on JSP file to perform the use cases of our application. Our web application passes request values to the next page and responds with a new HTML page to the user, JavaBean has been used to receive and store the request from the previous page and the JSP file performs some function on these request to derive some results. 
