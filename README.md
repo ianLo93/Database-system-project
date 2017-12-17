@@ -51,3 +51,4 @@ Have fun!
 
 ## Other interfaces
 ![terrorism](https://image.ibb.co/b0HFC6/explore_Terro.png)
+![terrordetail](https://image.ibb.co/di7qEm/explore_Detail.png)
